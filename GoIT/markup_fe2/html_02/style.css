@@ -1,0 +1,140 @@
+figure {
+        margin: auto;
+        width: 1062px;
+        height: 800px;
+        padding: 50px 50px 50px 0px;
+        background: white;
+        text-align: left;
+        -webkit-box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.39);
+        -moz-box-shadow: 1px 1px 13px -1px rgba(0,0,0,0.39);
+        box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.39);
+      }
+
+header {
+	      padding: 0px 70px;
+      }
+
+.wrapper {
+        position: relative;
+        min-height: 100%;
+      }
+
+#headering {
+  background: linear-gradient(to top, #464545, #5d5d5d);
+  width: 966px;
+  height: 40px;
+}
+
+.logo {
+        margin-bottom: 30px;
+      }
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+	padding: 0;
+}
+
+nav li {
+	font: 14px 'Arial', sans-serif;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 12px 35px;
+}
+
+.top-menu li.active {
+	background: linear-gradient(to top, #2f2f2f, #494949);
+	color: #fff;
+  border-left-color: 1px solid #fff;
+}
+
+.top-menu a {
+	color: #fff;
+}
+
+.container {
+  width: 966px;
+  margin-left: 68px;
+}
+
+.leftcol {
+   float: left;
+  }
+
+.rightcol {
+  float: left;
+  margin-left: 48px;
+  margin-top: 11px;
+}
+
+aside ul {
+  margin: 27px 0px;
+	padding: 0;
+  width: 240px;
+}
+
+aside li {
+        border-right: 1px solid #c8c8c8;
+        border-left: 1px solid #c8c8c8;
+        border-bottom: 1px solid #c8c8c8;
+        font: 13px 'Arial', sans-serif;
+        list-style-type: none;
+}
+
+aside a {
+        color: #666;
+        padding: 13px 20px;
+        text-decoration: none;
+        display: block;
+}
+
+.aside-menu li.active {
+        padding: 13px 0px 13px 35px;
+}
+
+.aside-menu li:first-child {
+       border-top: 1px solid #c8c8c8;
+}
+
+.text {
+  width: 645px;
+  color: #666;
+  font: 13px 'Arial', sans-serif;
+  line-height: 1.5;
+  float: right;
+}
+
+.footer {
+  position: absolute;
+  bottom: 35px;
+  width: 966px;
+  height: 40px;
+  background-color: #e1e1dd;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666;
+  font: 13px 'Arial', sans-serif;
+}
+
+.footer li:last-child {
+       float: right;
+}
+
+.footer li.active {
+  color: #666;
+  font: 13px 'Arial', sans-serif;
+  text-decoration: underline;
+}
