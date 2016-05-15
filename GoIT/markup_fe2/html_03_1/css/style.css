@@ -1,0 +1,55 @@
+html {
+  background-image: url(../img/background.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+body {
+    padding: 10px;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 270px;
+    height: 189px;
+    margin-top: -6px;
+    margin-bottom: 65px;
+}
+
+.logo {
+  text-align: left;
+  margin-left: 260px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font: 11px 'Tahoma Regular', sans-serif;
+  color: #fff;
+}
+
+.logo figcaption {
+  margin-top: -28px;
+  margin-bottom: 19px;
+  margin-left: 76px;
+}
+
+.contact {
+font: 11px 'Tahoma Regular', sans-serif;
+color: #fff;
+text-align: left;
+margin-left: 938px;
+margin-top: -65px;
+margin-bottom: 19px;
+}
+
+.block figcaption {
+  font: 15px 'Tahoma Regular', sans-serif;
+  color: #fff;
+  margin-top: -6px;
+}
+
+.copyright {
+  font: 11px 'Tahoma Regular', sans-serif;
+  color: #fff;
+  margin-top: 135px;
+}
