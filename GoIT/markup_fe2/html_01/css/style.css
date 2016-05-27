@@ -1,0 +1,56 @@
+hr {
+  border:none;
+  background-color: black;
+  color:black;
+  height:1px;
+}
+
+a {
+  color: blue;
+}
+
+h1 {
+  font-size:24px;
+}
+
+p {
+  font-size:18px;
+  line-height: 1.5;
+}
+
+li {
+  font-size:18px;
+  line-height: 1.5;
+}
+
+figure {
+  width: 510px;
+  height: 750px;
+  padding: 50px 50px 50px 50px;
+  background: white;
+  margin:10px 50px 55px 390px;
+  text-align: left;
+  -webkit-box-shadow: 1px 1px 13px -1px rgba(0,0,0,0.39);
+  -moz-box-shadow: 1px 1px 13px -1px rgba(0,0,0,0.39);
+  box-shadow: 1px 1px 13px -1px rgba(0,0,0,0.39);
+}
+
+.fig {
+  text-align: center;
+}
+
+#who_am_I {
+  margin-bottom: 30px;
+}
+
+#want {
+  margin-bottom: 37px;
+}
+
+#list {
+  margin-bottom: 30px;
+}
+
+#tel {
+  margin-bottom:37px;
+}
