@@ -4,7 +4,7 @@ html {
     background-size: 100%;
   }
 
-  @font-face {
+@font-face {
     font-family: "Helvetica";
     src:
     url("fonts/HelveticaNeueCyr-Roman.otf")
@@ -12,23 +12,68 @@ html {
     font-weight: normal;
    }
 
-.header {
+.header, .menu1, .menu2 {
   margin: -10px;
   position: relative;
 }
 
+.header {
+  z-index: 1;
+}
+
+.menu1 {
+  z-index: 2;
+  margin-top: -58px;
+  margin-left: 450px;
+}
+
 .menu1 a {
-  text-decoration: none;
-  color: #60b5ed;
-  font: 14px Helvetica, Arial,  sans-serif;
-  padding: 10px;
+text-decoration: none;
+color: #60b5ed;
+font: 14px Helvetica, Arial,  sans-serif;
+padding: 12px;
+padding-top: 5px;
 }
 
 .menu1 li {
   list-style: none;
   float:left;
   padding-top: 9px;
-  padding-bottom: 10px;
+  padding-bottom: 11px;
+}
+
+.menu2 {
+  z-index: 3;
+  margin-top: -7px;
+  float:left;
+  margin-left: 830px;
+  width: 600px;
+  }
+
+  .menu2 a {
+  text-decoration: none;
+  color: #fff;
+  font: 14px Helvetica, Arial,  sans-serif;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 50px;
+  border-left: 1px solid #60b5ed;
+  margin-left: -1px;
+  }
+
+.menu2 li {
+    list-style: none;
+    float:left;
+  }
+
+.menu2 li:first-child {
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+    background-position: 10px 0;
+    }
+
+.menu1 li:hover {
+  background: #4eabda;
 }
 
 .menu1 a:hover {
@@ -36,13 +81,130 @@ html {
   font-weight: bold;
 }
 
-.header ul {
-  position:absolute;
-  top:-14px;
-  left: 400px;
+.menu2 li:hover {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+  border: 1px solid #54a1db;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  margin-top: -8px;
 }
 
-.menu1 li:hover {
-  background-color: #4eabda;
+.menu2 a:hover {
   color: #fff;
+}
+
+#square {
+	width: 565px;
+	height: 660px;
+background-color: rgba(0, 0, 0, 0.7);
+ margin-top: 250px;
+ margin-left: 400px;
+}
+
+.container {
+    position: relative;
+    padding-top: 25px;
+    margin-left: 135px;
+}
+
+.text1 {
+    position: absolute;
+    left: 117px;
+    top: 29px;
+    padding: 0 10px;
+    font: 14px Helvetica, Arial,  sans-serif;
+    color: #999;
+}
+
+h1 {
+  color: #fff;
+  font: 24px Helvetica, Arial,  sans-serif;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding-top: 22px;
+  padding-bottom: 6px;
+}
+
+.fb {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 36px;
+}
+
+.form {
+  margin-left: 95px;
+}
+
+.form li {
+list-style-type: none;
+text-align: center;
+padding-top: 18px;
+width: 276px;
+}
+
+.name, .lastname, .address, .choose, .confirm {
+width: 258px;
+height: 36px;
+background-color: #0f0f0f;
+border: none;
+border-bottom: 1px solid #484948;
+padding-left: 19px;
+font: 14px Helvetica, Arial,  sans-serif;
+color: #fff;
+}
+
+.form input[type="text"]:hover {
+  /*background-color: #1b5288;*/
+  background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.check {
+width: 16px;
+height: 16px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox.png);
+background-repeat: no-repeat;
+margin-left: -255px;
+margin-top: 5px;
+}
+
+.check:hover {
+  background: url(../img/ch.png);
+  background-repeat: no-repeat;
+}
+
+.check input {
+display: none;
+}
+
+.form p {
+font: 14px Helvetica, Arial,  sans-serif;
+ color: #fff;
+ width: 230px;
+ padding-left: 25px;
+ margin-top: -22px;
+}
+
+.form input[type="submit"] {
+width: 151px;
+height: 37px;
+background-color: #4ca9d9;
+border: 1px solid #6bb8e7;
+border-radius: 4px;
+color: #fff;
+margin-top: -10px;
+}
+
+.form input[type="submit"]:hover {
+  background-image: linear-gradient(to top, #2e7ac4, #4ca9d9);
+}
+
+h6 {
+  color: #fff;
+  font: 11px Helvetica, Arial,  sans-serif;
+  width: 320px;
+text-align: center;
+margin-left: 10px;
 }
