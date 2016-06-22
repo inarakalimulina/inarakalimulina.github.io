@@ -1,7 +1,8 @@
-html {
+  html {
   background: url(../img/fon.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,10 +23,11 @@ body {
 }
 
 .menu {
-  display: inline-block;
+  display: block;
   height: 38px;
   width: 1200px;
   position: relative;
+  margin: 0 auto;
 }
 
 .menu1, .menu2 {
@@ -116,11 +118,12 @@ body {
 
 #square {
 	width: 565px;
-	height: 660px;
+	height: 680px;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
-  margin-top: 250px;
-  margin-left: 30%;
-  margin-right: 25%;
+  left: 50%;
+  top: 50%;
+  margin: -5% 0 0 -20%;
 }
 
 .h1{
@@ -250,22 +253,12 @@ h1 {
 }
 
 .check {
-  width: 16px;
+  width: 300px;
   height: 16px;
   display: inline-block;
-  cursor: pointer;
-  background: url(../img/checkbox.png);
-  background-repeat: no-repeat;
   margin-top: 20px;
-}
-
-.check:hover {
-  background: url(../img/ch.png);
-  background-repeat: no-repeat;
-}
-
-.check input {
-  display: none;
+  font: 14px Helvetica, Arial,  sans-serif;
+  color: #fff;
 }
 
 .form p {

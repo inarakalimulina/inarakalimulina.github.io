@@ -1,0 +1,86 @@
+#wrapper {
+  max-width: 908px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Lucida";
+  src: url("fonts/Lucida.ttf");
+  font-weight: normal;
+}
+
+header {
+ float: left;
+ background-color: yellow;
+}
+
+.tel {
+ max-width: 22px;
+ background-color: red;
+ float: left;
+ padding-top: 6px;
+ padding-left: 8px;
+}
+
+header p {
+ max-width: 265px;
+ font: 18px  Arial,  sans-serif;
+ color:#5e696d;
+ margin:0 20px 0 32px;
+ padding-top: 6px;
+ background-color: blue;
+}
+
+.form {
+  max-width: 650px;
+  float: left;
+  margin-top: -10px;
+  background-color: green;
+  margin:-26px 0 0 285px;
+}
+
+form {
+max-width: 270px;
+float: left;
+background-color: red;
+}
+
+.login,.password {
+  width: 108px;
+  height: 16px;
+  padding-left: 4px;
+  margin-left: 2px;
+  font-family: "Lucida", sans-serif;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.auto {
+    padding-top: 5px;
+    padding-left: 5px;
+    float:left;
+}
+
+.menu1 {
+    max-width: 110px;
+    float: left;
+}
+
+.menu1 a{
+  text-decoration: none;
+  float: left;
+  background-color: blue;
+  padding-left: 5px;
+  font-family: "Lucida", sans-serif;
+  font-size: 11px;
+}
+
+.menu1 li {
+    list-style-type: none;
+}
+
+.menu2 a{
+  max-width: 100px;
+  float: left;
+  background-color: blue;
+}
