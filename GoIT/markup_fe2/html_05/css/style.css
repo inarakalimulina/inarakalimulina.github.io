@@ -71,7 +71,6 @@ body {
   font: 14px Helvetica, Arial,  sans-serif;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: -1px;
   margin-top: -30px;
 }
 
@@ -80,12 +79,41 @@ body {
   float:left;
 }
 
-.menu2 a.first:before {
-  content: url("../img/flag.png");
-  float: left;
-  margin-left: -20px;
+.first:hover {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+  border: 1px solid #54a1db;
+  margin-left: -29px;
+  padding-left: 29px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-right: -1px;
+  margin-top: -10px;
 }
 
+.first:before {
+  content: url("../img/flag.png");
+  float: left;
+  margin-left: -30px;
+  padding-left: 10px;
+  margin-top: -5px;
+  padding-top: -9px;
+  border-left: 1px solid #54a1db;
+}
+
+.last {
+  border-left: 1px solid #54a1db;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: -6px;
+}
+
+.last:hover{
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+  border: 1px solid #54a1db;
+  margin-top: -10px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
 
 .menu1 li:hover {
   background: #4eabda;
@@ -94,22 +122,6 @@ body {
 .menu1 a:hover {
   color: #fff;
   font-weight: bold;
-}
-
-.menu2 li.fir:hover {
-  background: linear-gradient(to top, #2e7ac4, #50afdc);
-  border: 1px solid #54a1db;
-  padding-top: 10px;
-  padding-left: 22px;
-  margin-top: -14px;
-}
-
-.menu2 li.las:hover {
-  background: linear-gradient(to top, #2e7ac4, #50afdc);
-  border: 1px solid #54a1db;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -12px;
 }
 
 .menu2 a:hover {
@@ -123,7 +135,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   left: 50%;
   top: 50%;
-  margin: -5% 0 0 -20%;
+  margin: -5% 0 0 -282.5px;
 }
 
 .h1{
@@ -161,8 +173,7 @@ h1 {
 }
 
 .fb:hover {
-  background-image:
-  linear-gradient(to top, #2e7ac4, #4eabda);
+  background-image:linear-gradient(to top, #2e7ac4, #4eabda);
 }
 
 .fb a {

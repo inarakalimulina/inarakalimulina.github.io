@@ -1,0 +1,13 @@
+body {
+  background: #fff;
+}
+
+table {
+  width: 500px;
+  height: 540px;
+	border-collapse: collapse;
+}
+
+td {
+  border: 9px solid #000;
+}
