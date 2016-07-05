@@ -293,7 +293,7 @@ h1 {
 }
 
 .form input[type="submit"]:hover {
-  background-image: linear-gradient(to top, #2e7ac4, #4ca9d9);
+  background-image: linear-gradient(to top, #0e375c, #1e6383);
 }
 
 h6 {
