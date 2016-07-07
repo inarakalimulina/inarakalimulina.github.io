@@ -1,0 +1,23 @@
+html {
+background: url(../img/fon.jpg);
+background-repeat: no-repeat;
+background-size: 120%;
+overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "LeagueGothic";
+  src: url("fonts/LeagueGothic-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu {
+  font: 14px LeagueGothic, sans-serif;
+}

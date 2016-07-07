@@ -53,8 +53,9 @@ float: left;
 
 .login,.password {
   width: 106px;
-  height: 16px;
+  height: 14px;
   padding-left: 4px;
+  margin-top: 3px;
   margin-left: 2px;
   font-family: "Lucida", sans-serif;
   font-size: 11px;
@@ -71,7 +72,7 @@ float: left;
     max-width: 150px;
     float: left;
     margin-left: -36px;
-    margin-top: -12px;
+    margin-top: -10px;
 }
 
 .menu1 a{
@@ -101,7 +102,7 @@ margin-bottom: 2px;
   float: left;
   font-family: "Lucida", sans-serif;
   font-size: 11px;
-  margin-top: 5px;
+  margin-top: 6px;
   margin-left: 24px;
   color: #bfbfbf;
   letter-spacing: 0.6px;
@@ -119,7 +120,9 @@ margin-bottom: 2px;
   border-radius: 9px;
   display: inline-block;
   border: 1px solid #bfbfbf;
-  box-shadow: 0px 5px 5px -7px #000000;
+  -webkit-box-shadow: 4px 7px 10px -6px rgba(0,0,0,0.55);
+  -moz-box-shadow: 4px 7px 10px -6px rgba(0,0,0,0.55);
+   box-shadow: 4px 7px 10px -6px rgba(0,0,0,0.55);
 }
 
 .navig a{
@@ -138,6 +141,9 @@ nav {
   border-radius: 4px;
   border: 1px solid #0d1642;
   margin-bottom: 10px;
+  -webkit-box-shadow: 4px 7px 13px -6px rgba(0,0,0,0.95);
+  -moz-box-shadow: 4px 7px 13px -6px rgba(0,0,0,0.95);
+   box-shadow: 4px 7px 13px -6px rgba(0,0,0,0.95);
 }
 
 .menu3 {
@@ -283,6 +289,12 @@ aside .leftColumn ul{
   right: 5px;
 }
 
+.catalogue a, .brand a {
+-webkit-box-shadow: 4px 8px 5px -5px rgba(0,0,0,0.4);
+-moz-box-shadow: 4px 8px 5px -5px rgba(0,0,0,0.4);
+box-shadow: 4px 8px 5px -5px rgba(0,0,0,0.4);
+}
+
 .shiny a:before, .disk a:before, .bolt a:before {
   content: url("../img/Icon_2.png");
   top: 6.5px;
@@ -357,6 +369,7 @@ h2 span {
  font-family: "Lucida", sans-serif;
  font-size: 13px;
  color: #465961;
+ line-height: 2;
 }
 
  input[type="submit"] {
@@ -398,7 +411,10 @@ footer a{
  color: #fff;
  padding-left: 10px;
  padding-right: 10px;
- /*border-left: 1px solid #fff;*/
+}
+
+footer a:hover {
+  color: #52abcb;
 }
 
 footer .second a {
